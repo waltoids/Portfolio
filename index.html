@@ -3,10 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+        <!--Bootstrap CDN-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
+      <!--Navbar Start-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Walter Joy IV</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,20 +16,32 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
           </nav>
+          <!--Navbar End-->
+          <!--Nested container with rows-->
+          <main class="container my-4">
+              <section class="card p-4">
+                <header>
+                  <h3 class="border-bottom pb-4 mb-4">About Me</h3>
+                </header>
+                <article>
+                  <img src="assests/timcurry.gif" class="float-left img-fluid" alt="Pirate Tim Curry laughing">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac libero non elit ultrices vulputate. Mauris at interdum mi. Morbi elementum nec diam eu ultricies. Curabitur cursus tincidunt est ac convallis. Aliquam nec risus sapien. Nunc eu massa quam. Proin sed sapien viverra mi elementum posuere eget sed magna. Vestibulum nec nunc risus. Aliquam rutrum et leo vel blandit. Morbi tempor venenatis congue. Mauris fringilla risus nisl. In vehicula tristique mi eget posuere. Phasellus maximus lobortis lobortis.</p>
+
+                  <p>Suspendisse sit amet sapien velit. Curabitur condimentum erat neque, a rutrum nisi pharetra vel. Curabitur efficitur, massa ut sagittis fermentum, ex urna consequat mauris, at volutpat nibh massa vel sem. Quisque at tellus et massa mattis feugiat. Integer vel odio efficitur lectus finibus rhoncus. Vivamus fringilla lacus sed ornare porttitor. Donec elementum tellus in ante tempus ornare. Ut vel arcu finibus, molestie sem in, efficitur arcu. Nunc tincidunt odio quis facilisis vehicula. Sed ipsum lacus, commodo ac diam semper, ornare aliquam turpis. In varius nulla a scelerisque imperdiet. Aliquam dapibus lorem et felis blandit consectetur. Quisque lectus ligula, semper ac aliquet sed, dapibus feugiat nisl.</p>
+                </article>
+              </section>
+          </main>
     </body>
 </html>
