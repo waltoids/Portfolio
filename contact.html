@@ -8,12 +8,14 @@
         <title>Responsive Portfolio</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Walter Joy IV</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!--Navbar start-->
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <!-- <a class="navbar-brand" href="#">Walter Joy IV</a> -->
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            </button> -->
+            <div class="d-flex flex-row flex-column justify-content-start flex-md-row container-fluid navbar" id="navbarNav">
+              <a class="navbar-brand" href="#">Walter Joy IV</a>
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
@@ -27,6 +29,31 @@
               </ul>
             </div>
           </nav>
-          <h1>Test Test</h1>
+      <!--Navbar end-->
+      <!--Contact Form-->
+          <main class="container my-4">
+            <section class="card p-4">
+              <header>
+                <h3 class="border-bottom pb-4 mb-4">Contact</h3>
+              </header>
+              <form>
+                <div class="form-group">
+                  <label for="Name">Name:</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Smithy Jonathan">
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email:</label>
+                  <input type="email" class="form-control" id="Email" placeholder="SmithyJonathan@why.not"></input>
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message:</label>
+                  <textarea class="form-control" id="Text" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </section>
+
+
+          </main>
     </body>
 </html>
