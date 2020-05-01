@@ -1,8 +1,38 @@
-.card{
+.card {
     border-radius: 0;
 }
-/* @media screen and (max-width: 768px) {
+
+body {
+    background-color: rosybrown;
+}
+
+.container {
+    /* width: 980px; */
+    margin-left: 40px;
+}
+.article {
+    margin:8px;
+    clear: both;
+}
+.row {
+    margin: 0%;
+}
+.bottom-centered {
+    position: relative;
+    bottom: 80px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
     .container {
-        margin-left: 40px;
+        width: 100%;
+        margin: 0px;
+    }
+
+} 
+
+/* @media screen and (max-width:980px) {
+    .container {
+        width: 45%;
     }
 } */
