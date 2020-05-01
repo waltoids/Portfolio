@@ -20,8 +20,8 @@ body {
 .container {
     margin-left: 40px;
 }
-.article {
-    margin:8px;
+.img-article {
+    margin:20px;
     clear: both;
 }
 .row {
