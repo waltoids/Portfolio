@@ -2,12 +2,22 @@
     border-radius: 0;
 }
 
+.navbar-brand {
+    background-color: rgb(54, 107, 223);
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
 body {
-    background-color: rosybrown;
+    background-color: rgb(60, 151, 204);
 }
 
 .container {
-    /* width: 980px; */
     margin-left: 40px;
 }
 .article {
@@ -28,11 +38,8 @@ body {
         width: 100%;
         margin: 0px;
     }
-
-} 
-
-/* @media screen and (max-width:980px) {
-    .container {
-        width: 45%;
+    .navbar-brand {
+        width: 100%;
+        box-sizing: unset;
     }
-} */
+}
