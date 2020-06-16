@@ -14,7 +14,13 @@
 }
 
 body {
-    background-color: rgb(60, 151, 204);
+    background-image: url("../assests/Sky.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(60, 150, 204);
+
 }
 
 .container {
