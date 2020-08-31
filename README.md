@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-[Deployed portfolio](https://waltoids.github.io/Responsive-Portfolio/)
+[Deployed portfolio](https://waltoids.github.io/Portfolio/)
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes.
 # Usage
